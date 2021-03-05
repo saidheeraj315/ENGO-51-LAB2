@@ -1,0 +1,67 @@
+body {
+  padding: 20px;
+  background-color: #808000;
+}
+
+
+@media screen and (max-width: 600px) {
+  nav li {
+    float: none;
+    width: 100%;
+  }
+}
+
+p {
+  padding: 5px;
+}
+
+#reportrange {
+  color: #2F05EE
+
+  width: 100%;
+  padding: 5px;
+  border-width: thin;
+
+  cursor: pointer;
+  padding: 5px;
+
+  border-radius: 3px;
+
+}
+#map {
+
+  width: 100%;
+  height: 700px;
+}
+.current {
+  background-color: #808000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #951515;
+  border-radius:2px;
+}
+
+div {
+  padding: 5px;
+}
+
+nav li a{
+  float: right;
+  text-align: center;
+}
+nav li  {
+  float: left;
+  background-color: #951515;
+  display: block;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+div #rangereport:hover {
+  background-color: #909090;
+}
